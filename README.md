@@ -1,9 +1,10 @@
+Basic Assessment Expectations:
 
 Go through app and show how it meets requirements => 10-15 minutes
 
     (things we know how to do so far)
 
-    # MVC program / file structure (easiest to just use Corneal app)
+    # MVC program / file structure (easiest to just use Corneal gem)
     # Must use Active Record with Sinatra
     # Must use multiple models, including a user model
     # Must have at least one has_many on a model and at least one belongs_to on a model
@@ -11,24 +12,29 @@ Go through app and show how it meets requirements => 10-15 minutes
 
     (things we don't know how to do yet)
     # Must have user accounts => Sign up + log in/out functionality
+        # MUST use bcrypt (not listed on project page)
+        # MUST use restful routes (not listed on project page)
     # Validate uniqueness of user login info (email/pw)
     # a logged-in user has full CRUD capacity for their *own* stuff
     # Users cannot edit or delete content that belongs to another user
-    # Validations so that bad data cannot get into your DB - 
-    # Show the user an error message that communicates why their attempt failed
+    # Validations so that bad data cannot get into your DB 
+    # Show the user an error message that communicates why their attempt failed (i.e. if your validations do not pass)
 
 Explain the flow of your program, answer questions related to your program => 10-15 minutes
 
     ## Most important: 
+        (things we know how to do already)
         # purpose of a migration (modify db structure), purpose of schema.rb (summary of current db/table structure)
         # request/response flow =>
             Processing a GET request =>
                 ## E.G " __ request is made in the browser, and routed to __ route in __ controller, which then ___"
             Processing a POST request => 
                 # how does the form display, and how is the form processed
-                # what is params, and where do its keys come from?. What is its scope?
-
+                # what is params, and where do its keys come from?
+                What is its scope?
         # accessing objects through their associations (we sort of know how to do this)
+
+        (things we don't know how to do yet)
         # rendering vs redirecting, and where we have access to controller instance variables
         # where we have access to the session hash, and how we can use it to log a user in/out
         # basics of encryption => what does bcrypt provide, what does 
@@ -39,4 +45,5 @@ Explain the flow of your program, answer questions related to your program => 10
         # A thoughtful commit history
         # A well-written readme
         # Code is generally well-designed and easy to follow
-Live coding => 10-15 minutes
+
+Live coding => 10-15 minutes. This can vary, and may relate to adding new functionality, or refactoring existing functionality. The whole point of this exercise is to see how you think on your feet, deal with uncertainty, communicated your thought process, and make use or resources (e.g looking things up in the AR docs)
