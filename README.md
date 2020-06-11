@@ -1,7 +1,8 @@
 
-Go through app and how how it meets requirements => 10-15 minutes
+Go through app and show how it meets requirements => 10-15 minutes
 
     (things we know how to do so far)
+
     # MVC program / file structure (easiest to just use Corneal app)
     # Must use Active Record with Sinatra
     # Must use multiple models, including a user model
@@ -17,7 +18,7 @@ Go through app and how how it meets requirements => 10-15 minutes
     # Show the user an error message that communicates why their attempt failed
 
 Explain the flow of your program, answer questions related to your program => 10-15 minutes
-    Most important: 
+    ## Most important: 
         # purpose of a migration (modify db structure), purpose of schema.rb (summary of current db/table structure)
         # request/response flow =>
             Processing a GET request =>
@@ -32,7 +33,7 @@ Explain the flow of your program, answer questions related to your program => 10
         # basics of encryption => what does bcrypt provide, what does 
         has_secure_password (from AR) provide. How is the password stored in your table?
 
-    Important:
+    ## Important:
         # Using association methods to create objects (e.g. build/create)
         # A thoughtful commit history
         # A well-written readme
