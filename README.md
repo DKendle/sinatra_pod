@@ -18,6 +18,7 @@ Go through app and show how it meets requirements => 10-15 minutes
     # Show the user an error message that communicates why their attempt failed
 
 Explain the flow of your program, answer questions related to your program => 10-15 minutes
+
     ## Most important: 
         # purpose of a migration (modify db structure), purpose of schema.rb (summary of current db/table structure)
         # request/response flow =>
